@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name="hexp",
-    version='0.0.2',
+    version='0.1',
     py_modules=['hexp'],
     description="Dump contents of input in hexadecimal.",
     author="Mano",

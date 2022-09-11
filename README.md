@@ -1,20 +1,20 @@
-# PyHex
+# HexP
 Dump contents of input in hexadecimal. Built with Python, Click, and CPython.
 
 ## Installation
-`pip install pyhex`
+`pip install hexp`
 <br>
 or
 <br>
 ```
-$ git clone https://github.com/manorajesh/pyhex.git
+$ git clone https://github.com/manorajesh/hexp.git
 $ pip install -r requirements.txt
-$ ./pyhex
+$ ./hexp
 ```
 
 ## Usage
 ```
-Usage: pyhex [OPTIONS] [FILE]
+Usage: hexp [OPTIONS] [FILE]
 
   Print FILE, or if none given STDIN, in hexadecimal.
 

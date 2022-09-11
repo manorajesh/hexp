@@ -5,10 +5,10 @@ import sys
 
 @click.command()
 @click.argument('file', type=str, default="")
-@click.option('-c', 'inline', help='Display canonical Unicode inline', default=False, is_flag=True)
+@click.option('-c', 'inline', help='Display canonical Unicode inline (WIP)', default=False, is_flag=True)
 @click.option('-C', 'outside', help='Display canonical Unicode', default=False, is_flag=True)
-@click.option('-G', 'color', help='Display hexadecimal as color', default=False, is_flag=True)
-@click.version_option(version='0.0.1')
+@click.option('-G', 'color', help='Display hexadecimal as color (WIP)', default=False, is_flag=True)
+@click.version_option(version='0.0.2')
 @click.help_option('--help', '-h')
 
 def main(file, inline, outside, color):

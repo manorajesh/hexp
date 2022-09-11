@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+bin/pyhex
+pyhex.egg-info/PKG-INFO
+pyhex.egg-info/SOURCES.txt
+pyhex.egg-info/dependency_links.txt
+pyhex.egg-info/requires.txt
+pyhex.egg-info/top_level.txt
